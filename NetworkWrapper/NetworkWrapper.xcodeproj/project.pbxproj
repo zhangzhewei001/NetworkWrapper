@@ -21,6 +21,7 @@
 		7A7E937D26E1CC3C00BCBAD6 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7E937626E1CC3B00BCBAD6 /* Endpoint.swift */; };
 		7A7E937E26E1CC3C00BCBAD6 /* NetworkConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7E937726E1CC3B00BCBAD6 /* NetworkConfig.swift */; };
 		7A7E938126E1CC8400BCBAD6 /* Cancelable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7E937F26E1CC8400BCBAD6 /* Cancelable.swift */; };
+		7A7E938426E1CFAB00BCBAD6 /* NetworkWrapper.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 7A7E938326E1CFAB00BCBAD6 /* NetworkWrapper.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		7A7E937626E1CC3B00BCBAD6 /* Endpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		7A7E937726E1CC3B00BCBAD6 /* NetworkConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkConfig.swift; sourceTree = "<group>"; };
 		7A7E937F26E1CC8400BCBAD6 /* Cancelable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cancelable.swift; sourceTree = "<group>"; };
+		7A7E938326E1CFAB00BCBAD6 /* NetworkWrapper.podspec */ = {isa = PBXFileReference; lastKnownFileType = file; path = NetworkWrapper.podspec; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 		7A7E935926E1CBF200BCBAD6 /* NetworkWrapper */ = {
 			isa = PBXGroup;
 			children = (
+				7A7E938326E1CFAB00BCBAD6 /* NetworkWrapper.podspec */,
 				7A7E936E26E1CC0D00BCBAD6 /* Wrapper */,
 				7A7E935A26E1CBF200BCBAD6 /* AppDelegate.swift */,
 				7A7E935C26E1CBF200BCBAD6 /* SceneDelegate.swift */,
@@ -173,6 +176,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A7E936726E1CBF300BCBAD6 /* LaunchScreen.storyboard in Resources */,
+				7A7E938426E1CFAB00BCBAD6 /* NetworkWrapper.podspec in Resources */,
 				7A7E936426E1CBF300BCBAD6 /* Assets.xcassets in Resources */,
 				7A7E936226E1CBF200BCBAD6 /* Main.storyboard in Resources */,
 			);
